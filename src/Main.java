@@ -37,19 +37,19 @@ public class Main {
         devLucas.setNome("Lucas");
         devLucas.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Lucas" + devLucas.getConteudosInscritos());
-        System.out.println("-");
+        System.out.println("-------------------------------");
         devLucas.progredir();
         devLucas.progredir();
         System.out.println("Conteúdos Inscritos Lucas" + devLucas.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Lucas" + devLucas.getConteudosConcluidos());
 
-        System.out.println("-------");
+        System.out.println("----------------//---------------");
 
         Dev devDuda = new Dev();
         devDuda.setNome("Maria Eduarda");
         devDuda.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Duda" + devDuda.getConteudosInscritos());
-        System.out.println("-");
+        System.out.println("-------------------------------");
         devDuda.progredir();
         System.out.println("Conteúdos Inscritos Duda" + devDuda.getConteudosInscritos());
         System.out.println("Conteúdos Concluídos Duda" + devDuda.getConteudosConcluidos());
